@@ -556,14 +556,21 @@ p {
   }
 
   .navbar-collapse {
-    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 3px;
   }
 
   .navbar-collapse .nav-link {
-    color: #707070;
-	padding-right: 20px;
+    color: #FFFFFF;
+	  padding-right: 20px;
+  }
+
+  .navbar-collapse .nav-item:not(:last-child) {
+    border-bottom: 1px solid rgba(255, 255, 255, .128);
+  }
+  .tm-navbar.scroll .navbar-collapse .nav-item:not(:last-child),
+  .navbar-collapse .nav-item:not(:last-child):hover {
+    border-bottom-color: rgba(1, 96, 100, .125);
   }
 }
 
