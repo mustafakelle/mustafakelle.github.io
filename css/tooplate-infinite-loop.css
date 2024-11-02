@@ -10,7 +10,7 @@ body {
 }
 a {
   transition: all 0.3s ease;
-  color: #38B;
+  color: #369;
 }
 
 a:hover,
@@ -41,7 +41,7 @@ blockquote {
 }
 
 .tm-text-primary {
-  color: #37A;
+  color: #369;
 }
 
 .tm-font-big {
@@ -57,7 +57,7 @@ blockquote {
 .tm-btn-primary:hover,
 .tm-btn-primary:focus {
   color: white;
-  background-color: #38B;
+  background-color: #369;
 }
 
 /* Navbar */
@@ -81,12 +81,11 @@ blockquote {
   font-weight: bold;
 }
 
-.navbar-brand:hover,
-.tm-navbar.scroll .navbar-brand:hover {
-  color: #016064;
+.tm-navbar.scroll .navbar-brand,
+.navbar-brand:hover {
+  color: #369;
 }
-
-.tm-navbar.scroll .navbar-brand {
+.tm-navbar.scroll .navbar-brand:hover {
   color: #369;
 }
 
@@ -106,7 +105,7 @@ blockquote {
 .tm-navbar.scroll .tm-nav-link.current,
 .tm-nav-link:hover {
   color: #FFF;
-  background-color: #016064;
+  background-color: #369;
 }
 
 .navbar-toggler {
@@ -122,7 +121,7 @@ blockquote {
 }
 
 .tm-navbar.scroll .navbar-toggler-icon {
-  color: #336699;
+  color: #369;
 }
 
 /* Hero */
@@ -187,17 +186,17 @@ blockquote {
 }
 
 .tm-down-arrow {
-  	color: #FFF;
-    cursor: pointer;
-    background: #016064;
-    padding: 15px 40px;
-    transition: all 0.3s ease;
+  color: #FFF;
+  cursor: pointer;
+  background: #369;
+  padding: 15px 40px;
+  transition: all 0.3s ease;
 }
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
   color: #FFF;
-  background: #015357;
+  background: #258;
   /* padding: 20px 50px; */
 }
 
@@ -218,7 +217,7 @@ blockquote {
 
 .tm-icon {
   display: block;
-  color: #37A;
+  color: #369;
 }
 
 .tm-continue {
@@ -252,7 +251,7 @@ blockquote {
 .slick-dots li button:focus:before,
 .slick-dots li.slick-active button:before {
   opacity: 1;
-  color: #3ba0dd;
+  color: #369;
 }
 
 .slick-dots li button:before {
@@ -438,7 +437,7 @@ figure.effect-honey:hover h2 i {
 
 .item-link:hover i,
 .item-link:hover span {
-  color: #3496d8;
+  color: #369;
 }
 
 .tm-input {
@@ -461,7 +460,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-btn-submit:hover {
 	color: #fff;
-	background-color: #38B;
+	background-color: #369;
 }
 
 ::placeholder {
@@ -494,7 +493,7 @@ figure.effect-honey:hover h2 i {
 
 .tm-footer-link:hover,
 .tm-footer-link:focus {
-  color: #38B;
+  color: #369;
   text-decoration: none;
 }
 
@@ -774,4 +773,8 @@ p {
   .tm-footer {
     font-size: 14px;
   }
+}
+
+.mfp-container button:focus {
+  outline: none;
 }
