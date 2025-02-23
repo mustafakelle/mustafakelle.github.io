@@ -139,7 +139,7 @@ blockquote {
   ),
   url(../img/main-background.jpg);
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 100dvh;
   min-height: 375px;
   position: relative;
   background-size: cover;
@@ -785,4 +785,8 @@ p {
 .tm-footer {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.slick-dots {
+  display: none !important;
 }
